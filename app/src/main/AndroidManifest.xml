@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ✅ REQUIRED -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Grama Waste Tracker"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GramaWasteTracker">
+
+        <!-- ✅ GOOGLE MAP API KEY -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDXahu59Y3FsmtzDVvmRhnpMmFOi7XLqBY"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Grama Waste Tracker">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>

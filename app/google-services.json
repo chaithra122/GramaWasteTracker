@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "454781534477",
+    "project_id": "handy-station-490610-h7",
+    "storage_bucket": "handy-station-490610-h7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454781534477:android:898d84d0380b3e76f97044",
+        "android_client_info": {
+          "package_name": "com.example.gramawastetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454781534477-ijmk030phdq5qme90jq4mnogpvsc3ci4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWpFocwb64VI5aaVaC2F0SOWiT8Mif0Tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454781534477-ijmk030phdq5qme90jq4mnogpvsc3ci4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
